@@ -1,0 +1,54 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\19augusthummert\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter6\com.python.pydev.analysis\v2_indexcache
+Spaceship|1488145242000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter6\Spaceship.py
+Spaceship6|1488209217250910000|C:\Users\19augusthummert\Google Drive\Code\Chapter6\Spaceship6.py
+SpaceshipTHATWORKS|1488295248381595000|C:\Users\19augusthummert\Google Drive\Code\Chapter6\SpaceshipTHATWORKS.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+5=Point.__init__
+1=Spaceship
+4=Point
+6=Point.setx
+7=Point.sety
+2=Spaceship6
+3=SpaceshipTHATWORKS
+-- END DICTIONARY
+-- START TREE 1
+21
+ang|4|angle!11@angle!19@angle1!27@angle!27@
+del|4|delta_x!19@delta_y!11@delta_y!19@delta_x!11@
+ear|0|
+fon|3|font!11@font!27@font!19@
+key|3|keys!27@keys!19@keys!11@
+old|3|old_pos!11@old_pos!19@old_pos!27@
+pla|4|planet!19@planet!27@planet!11@planet1!27@
+poi|3|Point!9@Point!17@Point!25@
+pos|3|pos!19@pos!27@pos!11@
+pri|3|print_text!26@print_text!18@print_text!10@
+rad|4|radius!27@radius1!27@radius!11@radius!19@
+ran|4|rangle!19@rangled!11@rangled!19@rangle!11@
+scr|5|screen!27@scratch_ship!11@screen!19@scratch_ship!19@screen!11@
+shi|3|ship!27@ship!19@ship!11@
+spa|3|space!27@space!19@space!11@
+spe|1|speed!19@
+wra|3|wrap_angle!18@wrap_angle!26@wrap_angle!10@
+x|3|x!11@x!27@x!19@
+x1|1|x1!27@
+y|3|y!19@y!11@y!27@
+y1|1|y1!27@
+-- END TREE
+-- START TREE 2
+10
+__i|3|__init__!4&18@__init__!4&26@__init__!4&10@
+__s|2|__str__!4&10@__str__!4&18@
+__x|4|__x!5&27@__x!6&27@__x!5&19@__x!6&19@
+__y|4|__y!5&19@__y!7&19@__y!5&27@__y!7&27@
+_x|3|_x!5&11@_x!6&11@_x!7&11@
+_y|1|_y!5&11@
+get|6|getx!4&18@getx!4&26@gety!4&10@gety!4&26@gety!4&18@getx!4&10@
+set|6|sety!4&26@sety!4&18@sety!4&10@setx!4&26@setx!4&10@setx!4&18@
+x|3|x!4&11@x!4&27@x!4&19@
+y|2|y!4&19@y!4&27@
+-- END TREE

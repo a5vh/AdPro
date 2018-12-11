@@ -1,0 +1,83 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\TEMP\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Final\com.python.pydev.analysis\v2_indexcache
+Proto1|1494514911327185000|C:\Users\TEMP\Google Drive\Code\Final\Proto1.py
+fonttest|1494339753868919000|C:\Users\TEMP\Google Drive\Code\Final\fonttest.py
+MyLibrary|1492526324858000000|C:\Users\TEMP\Google Drive\Code\Final\MyLibrary.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+9=MySprite.__init__
+12=MySprite.load
+6=Point.__init__
+10=MySprite.set_image
+11=MySprite.update
+3=Proto1
+1=fonttest
+2=MyLibrary
+5=Point
+7=Point.setx
+8=Point.sety
+4=MySprite
+-- END DICTIONARY
+-- START TREE 1
+28
+act|1|action_man!11@
+ang|1|angular_velocity!18@
+bla|1|black!27@
+bom|4|bomb_x1!27@bomb_x!27@bomb_y1!27@bomb_y!27@
+end|1|end!27@
+fla|4|flash!27@flashT1!27@flashT!27@flash1!27@
+fon|1|font1!27@
+gam|1|game_over!27@
+key|1|keys!27@
+lev|0|
+liv|1|lives!27@
+mou|2|mouse_y!27@mouse_x!27@
+mys|1|MySprite!17@
+pla|0|
+poi|1|Point!17@
+pos|4|pos_x!27@pos_x1!27@pos_y!27@pos_y1!27@
+pri|2|print_text!26@print_text!18@
+red|1|red!27@
+sco|1|score!27@
+scr|1|screen!27@
+sta|1|start!27@
+tar|1|target_angle!18@
+tic|0|
+vel|4|vel_x1!27@vel_y!27@vel_x!27@vel_y1!27@
+whi|1|white!27@
+wra|1|wrap_angle!18@
+yel|1|yellow!27@
+you|0|
+-- END TREE
+-- START TREE 2
+27
+X|1|X!4&19@
+Y|1|Y!4&19@
+__i|2|__init__!4&18@__init__!5&18@
+__s|2|__str__!4&18@__str__!5&18@
+__x|2|__x!6&19@__x!7&19@
+__y|2|__y!6&19@__y!8&19@
+_ge|3|_getx!4&18@_gety!4&18@_getpos!4&18@
+_se|3|_sety!4&18@_setpos!4&18@_setx!4&18@
+col|2|columns!9&19@columns!10&19@
+dir|1|direction!9&19@
+dra|1|draw!4&18@
+fir|1|first_frame!9&19@
+fra|6|frame_width!9&19@frame_width!10&19@frame!9&19@frame!11&19@frame_height!9&19@frame_height!10&19@
+get|2|getx!5&18@gety!5&18@
+ima|1|image!11&19@
+las|4|last_time!9&19@last_time!11&19@last_frame!9&19@last_frame!10&19@
+loa|1|load!4&18@
+mas|3|master_image!9&19@master_image!12&19@master_image!10&19@
+old|3|old_rotation!9&19@old_frame!9&19@old_frame!11&19@
+pos|1|position!4&19@
+rec|1|rect!10&19@
+rot|1|rotation!9&19@
+set|3|setx!5&18@set_image!4&18@sety!5&18@
+upd|1|update!4&18@
+vel|1|velocity!9&19@
+x|1|x!5&19@
+y|1|y!5&19@
+-- END TREE

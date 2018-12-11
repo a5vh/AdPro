@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="13" failures="0" finished="true" name="Test Run: 0" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/asdfghjkl;.py" status="error" test="asdfghjkl;" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\asdfghjkl;.py", line 6, in <module>
+    num = random.randint(1,5)
+NameError: name 'random' is not defined
+ERROR: Module: asdfghjkl; could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/asdfghjkl;.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/BombCatcher.py" status="error" test="BombCatcher" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\BombCatcher.py", line 14, in <module>
+    pygame.init()
+AttributeError: 'module' object has no attribute 'init'
+ERROR: Module: BombCatcher could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/BombCatcher.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/BombCatcher2.py" status="error" test="BombCatcher2" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\BombCatcher2.py", line 14, in <module>
+    pygame.init()
+AttributeError: 'module' object has no attribute 'init'
+ERROR: Module: BombCatcher2 could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/BombCatcher2.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/Bunchesofshapes.py" status="error" test="Bunchesofshapes" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\Bunchesofshapes.py", line 25
+    
+   ^
+SyntaxError: unexpected EOF while parsing
+ERROR: Module: Bunchesofshapes could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/Bunchesofshapes.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/CircleTester.py" status="error" test="CircleTester" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\CircleTester.py", line 8, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: CircleTester could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/CircleTester.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/Clock.py" status="error" test="Clock" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\Clock.py", line 7, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: Clock could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/Clock.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/ClockMi.py" status="error" test="ClockMi" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\ClockMi.py", line 3, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: ClockMi could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/ClockMi.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/ClockMod.py" status="error" test="ClockMod" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\ClockMod.py", line 3, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: ClockMod could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/ClockMod.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/FruitNinja.py" status="error" test="FruitNinja" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\FruitNinja.py", line 14, in <module>
+    pygame.init()
+AttributeError: 'module' object has no attribute 'init'
+ERROR: Module: FruitNinja could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/FruitNinja.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/MouseClicks.py" status="error" test="MouseClicks" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\MouseClicks.py", line 8, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: MouseClicks could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/MouseClicks.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame.py" status="error" test="TypingGame" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\TypingGame.py", line 7, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: TypingGame could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame.py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame[Conflict 1].py" status="error" test="TypingGame[Conflict 1]" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\TypingGame[Conflict 1].py", line 71
+    score -= 1
+        ^
+IndentationError: expected an indented block
+ERROR: Module: TypingGame[Conflict 1] could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame[Conflict 1].py).
+]]></stderr>
+</test>
+<test location="C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame[Conflict].py" status="error" test="TypingGame[Conflict]" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\19augusthummert\.p2\pool\plugins\org.python.pydev_5.4.0.201611281236\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\19augusthummert\Google Drive\Code\Chapter4\TypingGame[Conflict].py", line 7, in <module>
+    from pygame.locals import *
+ImportError: No module named 'pygame.locals'
+ERROR: Module: TypingGame[Conflict] could not be imported (file: C:/Users/19augusthummert/Google Drive/Code/Chapter4/TypingGame[Conflict].py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Chapter4 Chapter4"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

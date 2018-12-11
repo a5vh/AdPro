@@ -1,0 +1,57 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\TEMP\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter7\com.python.pydev.analysis\v2_indexcache
+DragonGame|1488816026000000000|C:\Users\TEMP\Google Drive\Code\Chapter7\DragonGame.py
+Dragon|1488557286000000000|C:\Users\TEMP\Google Drive\Code\Chapter7\Dragon.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+4=MySprite.__init__
+5=MySprite.load
+6=MySprite.update
+2=DragonGame
+1=Dragon
+3=MySprite
+-- END DICTIONARY
+-- START TREE 1
+19
+dra|2|dragon!11@dragon!19@
+fir|4|fireball!11@fireball_vel!11@fireball_vel!19@fireball!19@
+fon|2|font!19@font!11@
+fra|2|framerate!19@framerate!11@
+gam|2|game_over!11@game_over!19@
+gro|2|group!19@group!11@
+jum|2|jump_vel!19@jump_vel!11@
+key|2|key!11@key!19@
+liv|1|lives!19@
+mys|2|MySprite!17@MySprite!9@
+pri|2|print_text!18@print_text!10@
+res|2|reset_fireball!18@reset_fireball!10@
+sco|1|score!11@
+scr|2|screen!19@screen!11@
+smu|6|smurf!11@smurf_jumping!11@smurf_jumping!19@smurf_start_y!19@smurf_start_y!11@smurf!19@
+spa|2|space!19@space!11@
+tic|2|ticks!11@ticks!19@
+tim|1|time!19@
+you|2|you_win!11@you_win!19@
+-- END TREE
+-- START TREE 2
+17
+__i|2|__init__!3&10@__init__!3&18@
+__s|2|__str__!3&10@__str__!3&18@
+_ge|6|_getx!3&10@_getpos!3&18@_gety!3&18@_getpos!3&10@_gety!3&10@_getx!3&18@
+_se|6|_sety!3&18@_setx!3&10@_setpos!3&18@_setx!3&18@_setpos!3&10@_sety!3&10@
+col|4|columns!4&19@columns!5&19@columns!4&11@columns!5&11@
+fir|2|first_frame!4&19@first_frame!4&11@
+fra|12|frame_width!4&11@frame_width!5&11@frame!4&19@frame!6&19@frame_height!4&11@frame_height!5&11@frame_height!4&19@frame_height!5&19@frame_width!4&19@frame_width!5&19@frame!4&11@frame!6&11@
+ima|2|image!6&11@image!6&19@
+las|8|last_frame!4&19@last_frame!5&19@last_time!4&19@last_time!6&19@last_frame!4&11@last_frame!5&11@last_time!4&11@last_time!6&11@
+loa|2|load!3&18@load!3&10@
+mas|4|master_image!4&19@master_image!5&19@master_image!4&11@master_image!5&11@
+old|4|old_frame!4&11@old_frame!6&11@old_frame!4&19@old_frame!6&19@
+pos|2|position!3&11@position!3&19@
+rec|2|rect!5&11@rect!5&19@
+upd|2|update!3&10@update!3&18@
+x|2|x!3&11@x!3&19@
+y|2|y!3&11@y!3&19@
+-- END TREE

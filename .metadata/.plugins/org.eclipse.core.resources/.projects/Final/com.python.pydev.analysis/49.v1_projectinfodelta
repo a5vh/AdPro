@@ -1,0 +1,13 @@
+INSTUPProto
+C:\Users\TEMP\Google Drive\Code\Final\Proto.py
+INFOS:&&2|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0&&3|4|2|0
+score=5
+playerx=3
+Proto=2
+lives=6
+level=7
+ticks=8
+you_win=10
+game_init=1
+game_over=4
+key=9

@@ -1,0 +1,202 @@
+import sys, time, random, math, pygame
+from pygame.locals import *
+from MyLibrary import *
+
+
+
+
+levels = (
+(1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,0,0,1,1,1,1,1,
+ 1,1,1,1,1,0,0,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,1,1,
+ 1,1,1,1,1,1,1,1,1,1,4,1),
+          
+(2,2,2,2,2,2,2,2,2,2,2,2,
+ 2,0,0,2,2,2,2,2,2,0,0,2,
+ 2,0,0,2,2,2,2,2,2,0,0,2,
+ 2,2,2,2,2,2,2,2,2,2,2,2,
+ 2,2,2,2,2,2,2,2,2,2,2,2,
+ 2,2,2,2,2,2,2,2,2,2,2,2,
+ 2,2,2,2,2,2,2,2,2,2,2,2,
+ 2,0,0,2,2,2,2,2,2,0,0,2,
+ 2,0,0,2,2,2,2,2,2,0,0,2,
+ 2,2,2,2,2,2,2,2,2,2,2,2),
+          
+(3,3,3,3,3,3,3,3,3,3,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,3,3,3,3,3,3,3,3,3,3,
+ 3,3,3,3,3,3,3,3,3,3,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,0,0,0,3,3,0,0,0,3,3,
+ 3,3,3,3,3,3,3,3,3,3,3,3),
+
+ (4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4,
+ 4,4,4,4,4,4,4,4,4,4,4,4),
+
+(5,5,5,5,5,5,5,5,5,5,5,5,
+ 0,0,0,0,0,0,0,0,0,0,0,0,
+ 5,5,5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,5,5,
+ 0,0,0,0,0,0,0,0,0,0,0,0,
+ 0,0,0,0,0,0,0,0,0,0,0,0,
+ 5,5,5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,5,5,
+ 0,0,0,0,0,0,0,0,0,0,0,0,
+ 5,5,5,5,5,5,5,5,5,5,5,5),
+
+(6,6,6,6,6,6,6,6,6,6,6,6,
+ 6,6,6,6,6,6,6,6,6,6,6,6,
+ 6,6,6,6,6,6,6,6,6,6,6,6,
+ 6,6,6,6,6,0,0,6,6,6,6,6,
+ 6,6,6,0,0,0,0,0,0,6,6,6,
+ 6,6,6,0,0,0,0,0,0,6,6,6,
+ 6,6,6,6,6,0,0,6,6,6,6,6,
+ 6,6,6,6,6,0,0,6,6,6,6,6,
+ 6,6,6,6,6,6,6,6,6,6,6,6,
+ 6,6,6,6,6,6,6,6,6,6,6,6),
+)
+
+
+
+
+
+
+
+
+
+
+def game_init():
+    global screen, font, timer, inarow
+    global paddle_group, block_group, ball_group
+    global paddle, block_image, block, ball, lpaddle, lP, lpaddle_group
+    
+    pygame.init()
+    screen = pygame.display.set_mode((800,600))
+    pygame.display.set_caption("Block Breaker Game")
+    font = pygame.font.Font(None, 36)
+    pygame.mouse.set_visible(False)
+    timer = pygame.time.Clock()
+    inarow = 0
+    lP = True
+    #
+    paddle_group = pygame.sprite.Group()
+    block_group = pygame.sprite.Group()
+    ball_group = pygame.sprite.Group()
+    lpaddle_group = pygame.sprite.Group()
+    
+   
+    
+    
+    paddle = MySprite()
+    paddle.load("player.png")
+    paddle.position = 400, 540
+    paddle_group.add(paddle)
+
+    
+    
+
+    
+    
+    
+    
+    
+def move_paddle():
+        global movex,movey,keys,waiting
+        
+        paddle_group.update(ticks, 50)
+        
+        if keys[K_SPACE]:
+            if waiting:
+                waiting = False
+                reset_ball()
+        elif keys[K_LEFT]: paddle.velocity.x = -10.0
+        elif keys[K_RIGHT]: paddle.velocity.x = 10.0
+        else:
+            if movex < -2: paddle.velocity.x = movex
+            elif movex > 2: paddle.velocity.x = movex
+            else: paddle.velocity.x = 0
+        
+        paddle.X += paddle.velocity.x
+        if paddle.X < 0: paddle.X = 0
+        elif paddle.X > 710: paddle.X = 710
+        
+
+
+            
+
+
+
+
+game_init()
+pygame.mixer.init()
+game_over = False
+waiting = True
+score = 0
+lives = 3
+level = 0
+
+
+
+while True:
+    timer.tick(30)
+    ticks = pygame.time.get_ticks()
+    
+    
+    
+    for event in pygame.event.get():
+        if event.type == QUIT: sys.exit()
+        elif event.type == MOUSEMOTION:
+            movex,movey = event.rel
+        elif event.type == MOUSEBUTTONUP:
+            if waiting:
+                waiting = False
+                reset_ball()
+        elif event.type == KEYUP:
+            if event.key == K_RETURN:
+                goto_next_level()
+    
+    keys = pygame.key.get_pressed()
+    if keys[K_ESCAPE]: sys.exit()
+    
+    
+    if not game_over:
+        move_paddle()
+
+
+        collision_ball_paddle(
+        collision_ball_lpaddle()
+        collision_ball_blocks()
+    
+
+    
+    
+    screen.fill((50,50,100))
+    block_group.draw(screen)
+    ball_group.draw(screen)
+    paddle_group.draw(screen)
+    print_text(font, 0, 0, "SCORE " + str(score))
+    print_text(font, 200, 0, "LEVEL " + str(level+1))
+    print_text(font, 400, 0, "BLOCKS " + str(len(block_group)))
+    print_text(font, 670, 0, "BALLS  " + str(lives))
+    print_text(font, 500, 500, "inarow  " + str(inarow))
+    if game_over:
+        print_text(font, 300, 380, "G A M E  O V E R")
+        print_text(font, 350, 380, "Y O U R  S C O R E:  " + str(score))
+    pygame.display.update()

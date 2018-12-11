@@ -1,0 +1,111 @@
+'''
+Created on May 9, 2017
+
+@author: 19augusthummert
+'''
+import pygame,sys, time, random, math
+from MyLibrary import * 
+
+class Laser():
+    def __init__(self,position):
+        self.alive = True
+        self.color = (250,20,20)
+        self.position = Point(position.x,position.y)
+        self.velocity = Point(0,0)
+        self.rect = Rect(0,0,4,4)
+        self.owner = ""
+
+    def update(self,ticks):
+        self.position.x += self.velocity.x * 10.0
+        self.position.y += self.velocity.y * 10.0
+        if self.position.x < 0 or self.position.x > 800 \
+            or self.position.y < 0 or self.position.y > 600:
+                self.alive = False
+        self.rect = Rect(self.position.x, self.position.y, 4, 4)
+
+    def draw(self,surface):
+        pos = (int(self.position.x), int(self.position.y))
+        pygame.draw.circle(surface, self.color, pos, 4, 0)
+    
+def fire_cannon(player):
+    position = Point(player.X, player.Y)
+    laser = Laser(position)
+    laser.velocity = angular_velocity(angle)
+    bullets.append(laser)
+    return laser
+def player_fire_cannon():
+    laser = fire_cannon(player)
+    laser.owner = "player"
+    laser.color = (30,250,30)
+        
+def game_init():
+    global timer, player_group, player, font1, screen, playerx, font
+    
+    pygame.init()
+    screen = pygame.display.set_mode((1280,720))
+    font1 = pygame.font.Font(None, 36)
+    timer = pygame.time.Clock()
+    font = pygame.font.Font(None, 18)
+    
+    player_group = pygame.sprite.Group()
+    player = MySprite()
+    player.load("F5S2N.png")
+    player.position = ((600, 600))
+    player_group.add(player)
+ 
+#playerx = 600
+game_init()
+game_over = False
+score = 0
+lives = 0
+level = 0
+
+
+
+
+while True:
+    timer.tick(30)
+    ticks = pygame.time.get_ticks()
+    
+    if not game_over:
+        player_group.update(ticks,50)
+    print_text(font, 0, 100, "Position")
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: sys.exit()
+    key = pygame.key.get_pressed()
+    if key[pygame.K_ESCAPE]: sys.exit()
+    elif key[K_RIGHT]:
+        player.X += 10
+    elif key[K_LEFT]:
+        player.X -= 10
+    elif key[K_UP]:
+        player.Y -= 10
+    elif key[K_DOWN]:
+        player.Y += 10
+    
+    if key[K_SPACE]:
+        player.fire_timer = ticks
+        player_fire_cannon()
+
+  
+    if player.X >= 1260:
+        player.X = 1250
+    if player.X <= -30:
+        player.X = -20
+    if player.Y >= 660:
+        player.Y = 650
+    if player.Y <= 460:
+        player.Y = 470
+    
+    if lives == 0:
+        you_win = True
+        game_over = True
+    
+    
+    
+    screen.fill((0,0,0))
+    player_group.draw(screen)
+
+    
+    
+    pygame.display.update()

@@ -1,0 +1,54 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\TEMP\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter 2\com.python.pydev.analysis\v2_indexcache
+Circle|1488155064000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Circle.py
+Print|1486514462000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Print.py
+Ellipse|1485272665000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Ellipse.py
+Rectangle2|1485272665081963000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Rectangle2.py
+MovingEllipse|1488154781000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\MovingEllipse.py
+Pygame|1485272181171549000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Pygame.py
+Rectangle|1488155276000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\Rectangle.py
+HelloWorld|1486515505000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 2\HelloWorld.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=Circle
+8=Print
+2=Ellipse
+3=Rectangle2
+6=MovingEllipse
+7=Pygame
+1=Rectangle
+4=HelloWorld
+-- END DICTIONARY
+-- START TREE 1
+25
+b1|3|b1!11@b1!19@b1!27@
+b2|3|b2!11@b2!19@b2!27@
+b3|3|b3!11@b3!27@b3!19@
+blu|1|blue!35@
+col|6|color!43@color!51@color!19@color!27@color!11@color!59@
+end|1|end_angle!59@
+g1|3|g1!11@g1!19@g1!27@
+g2|3|g2!19@g2!27@g2!11@
+g3|3|g3!11@g3!19@g3!27@
+myf|2|myfont!59@myfont!35@
+pie|4|piece3!59@piece1!59@piece4!59@piece2!59@
+pos|29|pos_y!27@pos_y2!11@pos_x2!27@pos!19@pos!51@pos_y1!11@pos_x!27@pos_x1!27@pos_y1!27@pos_y!19@pos_x2!19@pos!11@pos_x1!19@pos_x!19@pos_x!43@pos_y!11@pos_x!11@pos_y1!19@pos_x1!11@pos_y!51@position!59@pos_y2!27@pos_x!51@pos!27@pos_y!43@pos2!11@pos_y2!19@pos_x2!11@pos1!11@
+r1|3|r1!11@r1!19@r1!27@
+r2|3|r2!11@r2!19@r2!27@
+r3|3|r3!11@r3!27@r3!19@
+rad|1|radius!59@
+scr|8|screen!19@screen!27@screen!35@screen!67@screen!51@screen!43@screen!59@screen!11@
+siz|18|sizex2!27@sizey!19@sizex2!11@sizex1!11@sizey2!11@sizex!27@sizex!11@sizey1!19@sizex2!19@sizey!27@sizey1!11@sizex1!19@sizey2!19@sizey!11@sizex1!27@sizey2!27@sizex!19@sizey1!27@
+sta|1|start_angle!59@
+tex|5|textImg2!59@textImage!35@textImg4!59@textImg3!59@textImg1!59@
+vel|22|vel_y!19@vel_x!51@vel_x1!27@vel_y2!27@vel_y1!11@vel_y!43@vel_x2!27@vel_x1!11@vel_y2!11@vel_x!19@vel_y!27@vel_x1!19@vel_y2!19@vel_y!11@vel_x!43@vel_y1!19@vel_x2!11@vel_y!51@vel_x!27@vel_y1!27@vel_x2!19@vel_x!11@
+whi|1|white!35@
+wid|5|width!59@width!67@width!27@width!19@width!11@
+x|1|x!59@
+y|1|y!59@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

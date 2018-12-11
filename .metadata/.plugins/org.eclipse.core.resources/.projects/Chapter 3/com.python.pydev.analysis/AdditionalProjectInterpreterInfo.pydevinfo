@@ -1,0 +1,74 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\TEMP\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter 3\com.python.pydev.analysis\v2_indexcache
+Poem|1484926665956738000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\Poem.py
+StorageandPrint|1485308388000000000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\StorageandPrint.py
+BasicInputOutput|1484927269463733000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\BasicInputOutput.py
+pygametrivia|1486136121703818000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\pygametrivia.py
+HandlingBadInput|1484927404676128000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\HandlingBadInput.py
+files|1485187312750185000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\files.py
+madlibgame|1485271208764493000|C:\Users\19augusthummert\Google Drive\Code\Chapter 3\madlibgame.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+9=Trivia.__init__
+7=Poem
+6=BasicInputOutput
+2=HandlingBadInput
+5=madlibgame
+8=Trivia
+1=StorageandPrint
+12=Trivia.reset_game
+10=Trivia.show_question
+3=pygametrivia
+11=Trivia.next_question
+4=files
+13=Trivia.handle_input
+-- END DICTIONARY
+-- START TREE 1
+26
+a|1|a!11@
+ans|1|answer!19@
+b|1|b!11@
+bir|1|birth!11@
+c|1|c!11@
+cya|1|cyan!27@
+d|1|d!11@
+fil|2|file!35@file!43@
+fon|2|font1!27@font2!27@
+gre|1|green!27@
+nam|2|name!11@name!51@
+nou|12|noun5!43@noun7!43@noun8!43@noun1!43@noun3!43@noun11!43@noun4!43@noun10!43@noun6!43@noun9!43@noun2!43@noun12!43@
+num|1|number!19@
+poe|1|poem!59@
+pri|1|print_text!26@
+pur|1|purple!27@
+red|1|red!27@
+s|1|s!19@
+scr|1|screen!27@
+sto|1|story!43@
+tex|1|text_lines!35@
+tit|1|title!51@
+tri|2|Trivia!25@trivia!27@
+wel|1|welcome!51@
+whi|1|white!27@
+yel|1|yellow!27@
+-- END TREE
+-- START TREE 2
+15
+__i|1|__init__!8&26@
+col|4|colors!9&27@colors!10&27@colors!11&27@colors!12&27@
+cor|4|correct!9&27@correct!10&27@correct!11&27@correct!12&27@
+cur|2|current!9&27@current!12&27@
+dat|1|data!9&27@
+fai|4|failed!9&27@failed!13&27@failed!11&27@failed!12&27@
+han|1|handle_input!8&26@
+nex|1|next_question!8&26@
+qco|2|qcount!9&27@qcount!12&27@
+qui|1|quit_game!8&26@
+res|1|reset_game!8&26@
+sco|6|scored!9&27@scored!13&27@scored!11&27@scored!12&27@score!9&27@score!12&27@
+sho|2|show_question!8&26@show_score!8&26@
+tot|2|total!9&27@total!12&27@
+wro|3|wronganswer!9&27@wronganswer!13&27@wronganswer!12&27@
+-- END TREE

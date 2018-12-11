@@ -1,0 +1,89 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\19augusthummert\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter4\com.python.pydev.analysis\v2_indexcache
+FruitNinja|1487087678844000000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\FruitNinja.py
+BombCatcher2|1487087678844000000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\BombCatcher2.py
+asdfghjkl;|1486395173983230000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\asdfghjkl;.py
+Bunchesofshapes|1487260287189085000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\Bunchesofshapes.py
+CircleTester|1487260293720661000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\CircleTester.py
+ClockMod|1487693082445257000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\ClockMod.py
+BombCatcher|1487170979703679000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\BombCatcher.py
+TypingGame[Conflict]|1486137682670454000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\TypingGame[Conflict].py
+Clock|1487261311323314000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\Clock.py
+MouseClicks|1486739945970595000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\MouseClicks.py
+TypingGame|1486567067278040000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\TypingGame.py
+ClockMi|1487691112998163000|C:\Users\19augusthummert\Google Drive\Code\Chapter4\ClockMi.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+7=FruitNinja
+8=BombCatcher2
+9=asdfghjkl;
+4=Bunchesofshapes
+1=CircleTester
+3=ClockMod
+6=BombCatcher
+10=TypingGame[Conflict]
+5=Clock
+11=TypingGame
+12=MouseClicks
+2=ClockMi
+-- END DICTIONARY
+-- START TREE 1
+52
+ang|5|angle!11@angle!19@angle!27@angle!35@angle!43@
+b|3|b!27@b!19@b!11@
+bla|3|black!51@black!59@black!67@
+blu|2|blue!27@blue!19@
+bom|8|bomb_x!51@bomb_y!59@bomb_x!67@bomb_y1!51@bomb_y!51@bomb_x!59@bomb_y!67@bomb_x1!51@
+cho|1|choice!75@
+clo|2|clock_start!83@clock_start!91@
+col|5|color1!11@color!19@color!11@color!99@color!27@
+cor|2|correct_answer!83@correct_answer!91@
+cur|2|current!83@current!91@
+end|3|end!67@end!59@end!51@
+f|1|f!35@
+fla|8|flash1!51@flashT!51@flash!51@flash!67@flash!59@flashT1!51@flashT!67@flashT!59@
+fon|12|font!19@font1!51@font1!91@font2!83@font1!67@font!27@font1!59@font!43@font2!91@font1!83@font!35@font1!99@
+g|3|g!27@g!11@g!19@
+gam|5|game_over!51@game_over!91@game_over!83@game_over!67@game_over!59@
+gre|3|green!27@green!35@green!19@
+hou|8|hours!19@hour_angle!19@hour_x!43@hour_angle!43@hour_y!19@hours!43@hour_y!43@hour_x!19@
+hsc|1|hscore!91@
+key|12|keys!83@keys!27@keys!59@key_flag!91@keys!91@keys!51@keys!99@keys!67@keys!19@keys!43@key_flag!83@keys!11@
+liv|3|lives!67@lives!51@lives!59@
+min|8|minutes!19@min_y!19@min_angle!19@min_x!43@min_angle!43@minutes!43@min_x!19@min_y!43@
+mou|14|mouse_up_y!99@mouse_x!67@mouse_up_x!99@mouse_y!67@mouse_up!99@mouse_x!59@mouse_down_x!99@mouse_y!51@mouse_y!99@mouse_down!99@mouse_x!51@mouse_down_y!99@mouse_x!99@mouse_y!59@
+mov|2|move_y!99@move_x!99@
+num|2|numerals!19@num!75@
+ora|4|orange!27@orange!35@orange!43@orange!19@
+pin|4|pink!43@pink!35@pink!27@pink!19@
+pos|20|pos_x!51@pos_x1!51@pos_y!11@pos_y!67@pos_x!11@pos_x!19@pos_x!27@pos_x!35@pos_y1!51@pos_x!59@pos_y!35@pos_y!27@pos_y!43@pos_y!59@pos_y!51@pos!11@pos_x!43@pos_y!19@pos_x!67@pos1!11@
+pri|9|print_text!18@print_text!42@print_text!98@print_text!90@print_text!26@print_text!50@print_text!82@print_text!66@print_text!58@
+qui|1|quit_game!90@
+r|3|r!27@r!19@r!11@
+rad|6|radius!11@radius!19@radius!43@radius!99@radius!27@radius!35@
+ran|1|randomL!91@
+red|5|red!67@red!59@red!27@red!19@red!51@
+res|1|reset_game!90@
+sco|5|score!67@score!91@score!59@score!83@score!51@
+scr|11|screen!59@screen!83@screen!35@screen!27@screen!51@screen!91@screen!99@screen!67@screen!19@screen!11@screen!43@
+sec|10|seconds!83@sec_y!43@seconds!19@sec_x!43@sec_angle!19@seconds!43@sec_x!19@sec_y!19@sec_angle!43@seconds!91@
+sha|2|shapes!27@shapes!19@
+spe|1|speed!83@
+sta|3|start!51@start!67@start!59@
+tar|1|target!19@
+tod|2|today!19@today!43@
+vel|8|vel_x!51@vel_y!59@vel_y!67@vel_x1!51@vel_y!51@vel_y1!51@vel_x!67@vel_x!59@
+whi|10|white!43@white!83@white!35@white!27@white!99@white!51@white!19@white!91@white!67@white!59@
+wid|1|width!99@
+wra|3|wrap_angle!26@wrap_angle!42@wrap_angle!18@
+x|4|x!19@x!11@x!43@x!27@
+x1|1|x1!11@
+y|4|y!27@y!43@y!11@y!19@
+y1|1|y1!11@
+yel|9|yellow!51@yellow!67@yellow!19@yellow!43@yellow!83@yellow!27@yellow!35@yellow!59@yellow!91@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

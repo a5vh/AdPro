@@ -1,0 +1,21 @@
+INSTUPBlocks
+C:\Users\TEMP\Google Drive\Code\Games\Blocks.py
+INFOS:&&3|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0&&2|8|2|0&&2|9|2|0&&2|10|2|0&&2|11|2|0&&3|12|2|0&&3|13|2|0&&3|14|2|0&&3|15|2|0&&3|16|2|0&&3|17|2|0&&3|13|2|0&&3|18|2|0
+Blocks=2
+reset_ball=8
+waiting=13
+lives=15
+level=16
+ticks=17
+keys=18
+move_ball=9
+game_over=12
+load_level=5
+update_blocks=4
+score=14
+goto_next_level=3
+move_paddle=7
+game_init=6
+collision_ball_paddle=10
+collision_ball_blocks=11
+levels=1

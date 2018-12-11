@@ -1,0 +1,34 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\TEMP\Google Drive\Code\.metadata\.plugins\org.eclipse.core.resources\.projects\For Fun\com.python.pydev.analysis\v2_indexcache
+Storage|1485301972000000000|C:\Users\19augusthummert\Google Drive\Code\For Fun\Storage.py
+AnalogClock|1485825007000000000|C:\Users\19augusthummert\Google Drive\Code\For Fun\AnalogClock.py
+P0ng|1484877197000000000|C:\Users\19augusthummert\Google Drive\Code\For Fun\P0ng.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=Storage
+1=AnalogClock
+2=P0ng
+-- END DICTIONARY
+-- START TREE 1
+15
+ang|1|angle!11@
+b|1|b!11@
+col|2|color!19@color!11@
+fil|1|file!27@
+fis|1|Fist!17@
+g|1|g!11@
+key|1|keys!11@
+pos|4|pos_y!11@pos!11@pos_x!11@pos!19@
+r|1|r!11@
+rad|1|radius!11@
+scr|2|screen!11@screen!19@
+upd|1|update!18@
+wid|1|width!19@
+x|1|x!11@
+y|1|y!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
