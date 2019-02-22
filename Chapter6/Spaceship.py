@@ -5,30 +5,37 @@ class Point(object):
     def __init__(self,x,y):
         self._x = x
         self._y = y
+
     def getx(self):
         return self._x
+
     def setx(self):
         self._x = x
     x = [property(getx, setx)]
     
     def gety(self):
         return self._y
+
     def sety(self):
         self._x = y
     x = [property(gety, sety)]
     
     def __str__(self):
         return "(X:" + "".format(self._x) + ",Y:" "".format(self._y) + ")"
-    
+
+
 def print_text(font, x, y, text, color=(255,255,255)):
     imgText = font.render(text, True, color)
     screen.blit(imgText, (x,y))
+
+
 def wrap_angle(angle):
     return angle % 360
 
+
 pygame.init()
-screen = pygame.display.set_mode((600,500))
-pygame.display.set_caption(("Space Demo"))
+screen = pygame.display.set_mode((600, 500))
+pygame.display.set_caption("Space Demo")
 font = pygame.font.Font(None, 18)
 
 space = pygame.image.load("space.png").convert_alpha()
@@ -58,14 +65,14 @@ while True:
 
     #move the ship
     angle = wrap_angle(angle - 0.1)
-    pos.x = math.sin( math.radians(angle) ) * radius
-    pos.y = math.cos( math.radians(angle) ) * radius
+    pos.x = math.sin(math.radians(angle)) * radius
+    pos.y = math.cos(math.radians(angle)) * radius
 
     #rotate the ship
-    delta_x = ( pos.x - old_pos.x )
-    delta_y = ( pos.y - old_pos.y )
+    delta_x = (pos.x - old_pos.x)
+    delta_y = (pos.y - old_pos.y)
     rangle = math.atan2(delta_y, delta_x)
-    rangled = wrap_angle( -math.degrees(rangle) )
+    rangled = wrap_angle(math.degrees(rangle))
 
     scratch_ship = pygame.transform.rotate(ship, rangled)
 

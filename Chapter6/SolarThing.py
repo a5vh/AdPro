@@ -2,32 +2,39 @@ import random, math, pygame, sys
 from pygame.locals import *
 
 #build points on screen
+
+
 class Point(object):
     def __init__(self,x,y):
         self.__x = x
         self.__y = y
     #x property
+
     def getx(self):
+
         return self.__x
-    def setx(self,x):
+
+    def setx(self, x):
         self.__x = x
     x = property(getx,setx)
 
     #y property
     def gety(self):
         return self.__y
+
     def sety(self,y):
         self.__y = y
     y = property(gety,sety)
-
 
 
 def print_text(font,x,y,text,color=(255,255,255)):
     imgText = font.render(text,True,color)
     screen.blit(imgText,(x,y))
 
+
 def wrap_angle(angle):
     return angle % 360
+
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 1280))
