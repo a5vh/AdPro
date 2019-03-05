@@ -45,7 +45,7 @@ crop_group = pygame.sprite.Group()
 
 #create the player sprite
 player = MySprite()
-player.load("farmer.png", 96, 96, 8)
+player.load("Square.jpg", 96, 96, 8)
 player.position = 80, 80
 player.direction = 4
 player_group.add(player)
@@ -124,7 +124,7 @@ while True:
             player.velocity.y *= 2
 
         #update player sprite
-        player_group.update(ticks, 50)
+        player_group.update(ticks, 60)
 
         #manually move the player
         if player_moving:
