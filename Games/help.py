@@ -92,7 +92,7 @@ class App:
         self.player.update()
 
         for i in range(2, self.player.length):
-            if self.game.is_collision(self.player.x[0], self.player.y[0], self.player.x[i], self.player.y[i], 40):
+            if self.game.is_collistion(self.player.x[0], self.player.y[0], self.player.x[i], self.player.y[i], 40):
                 print("You lose! Collision: ")
                 print("x[0] (" + str(self.player.x[0]) + "," + str(self.player.y[0]) + ")")
                 print("x[" + str(i) + "] (" + str(self.player.x[i]) + "," + str(self.player.y[i]) + ")")
