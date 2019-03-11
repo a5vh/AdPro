@@ -17,7 +17,7 @@ class Food(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,31) * 32
+        self.X = random.randint(0,23) * 32
         self.Y = random.randint(0,23) * 32
         
 class Food1(MySprite):
@@ -28,7 +28,7 @@ class Food1(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,31) * 32
+        self.X = random.randint(0,23) * 32
         self.Y = random.randint(0,23) * 32
         
 class Food2(MySprite):
@@ -39,7 +39,7 @@ class Food2(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,31) * 32
+        self.X = random.randint(0,23) * 32
         self.Y = random.randint(0,23) * 32
         
 class SnakeSegment(MySprite):
@@ -144,7 +144,7 @@ def game_init():
     global screen, backbuffer, font, timer, snake, food_group
 
     pygame.init()
-    screen = pygame.display.set_mode((32*32,24*32))
+    screen = pygame.display.set_mode((24*32,24*32))
     pygame.display.set_caption("Snake Game")
     font = pygame.font.Font(None, 30)
     timer = pygame.time.Clock()
@@ -152,30 +152,32 @@ def game_init():
     #create a drawing surface
     backbuffer = pygame.Surface((screen.get_rect().width,screen.get_rect().height))
 
-    #create snake
+    # create snake
     snake = Snake()
-    image = pygame.Surface((60,60)).convert_alpha()
-    image.fill((255,255,255,0))
-    pygame.draw.circle(image, (80,80,220,70), (30,30), 30, 0)
-    pygame.draw.circle(image, (80,80,250,255), (30,30), 30, 4)
-    
-    powerup = 
+    image = pygame.Surface((60, 60)).convert_alpha()
+    image.fill((255, 255, 255, 0))
+    pygame.draw.circle(image, (80, 80, 220, 70), (30, 30), 30, 0)
+    pygame.draw.circle(image, (80, 80, 250, 255), (30, 30), 30, 4)
 
-    #create food
+    # create food
     food_group = pygame.sprite.Group()
     food = Food()
     food_group.add(food)
-    
+
     food1 = Food1()
     food_group.add(food1)
-    
+
     food2 = Food2()
     food_group.add(food2)
-    
+
+def game_menu():
+    print_text(font, 376, 376, "Hello there")
+
 
 
 #main program begins
 game_init()
+game_menu()
 game_over = False
 last_time = 0
 streak = 0
@@ -209,7 +211,6 @@ while True:
         else:
             auto_play = True
             step_time = 150
-    
 
     #update section
     if not game_over:
@@ -256,6 +257,9 @@ while True:
         print_text(font, 0, 40, "Streak: " + str(streak))
     else:
         print_text(font, 0, 0, "GAME OVER")
+        print_text(font, 376, 376, )
+
+
 
     #additional code added
     if auto_play: 

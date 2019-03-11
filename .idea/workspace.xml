@@ -27,61 +27,41 @@
     <SUITE FILE_PATH="coverage/AdPro$Dragon.coverage" NAME="Dragon Coverage Results" MODIFIED="1551284699963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/AdPro$AnalogClock.coverage" NAME="AnalogClock Coverage Results" MODIFIED="1550854617645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/For Fun" />
     <SUITE FILE_PATH="coverage/AdPro$MovingEllipse.coverage" NAME="MovingEllipse Coverage Results" MODIFIED="1550854825114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 2" />
+    <SUITE FILE_PATH="coverage/AdPro$Snake.coverage" NAME="Snake Coverage Results" MODIFIED="1552318517583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$Spaceship.coverage" NAME="Spaceship Coverage Results" MODIFIED="1550854349156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
     <SUITE FILE_PATH="coverage/AdPro$DragonGame.coverage" NAME="DragonGame Coverage Results" MODIFIED="1550853817243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/AdPro$ZombieMain.coverage" NAME="ZombieMain Coverage Results" MODIFIED="1551458193752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1550854716176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 2" />
-    <SUITE FILE_PATH="coverage/AdPro$helppt2.coverage" NAME="helppt2 Coverage Results" MODIFIED="1551889893545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
+    <SUITE FILE_PATH="coverage/AdPro$helppt2.coverage" NAME="helppt2 Coverage Results" MODIFIED="1552318462103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$Blocks.coverage" NAME="Blocks Coverage Results" MODIFIED="1550854682568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$MultiBall.coverage" NAME="MultiBall Coverage Results" MODIFIED="1550854639420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$Circle.coverage" NAME="Circle Coverage Results" MODIFIED="1551459306227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 2" />
     <SUITE FILE_PATH="coverage/AdPro$SolarThing.coverage" NAME="SolarThing Coverage Results" MODIFIED="1550854673832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
-    <SUITE FILE_PATH="coverage/AdPro$FinalBlocks.coverage" NAME="FinalBlocks Coverage Results" MODIFIED="1551889708820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
+    <SUITE FILE_PATH="coverage/AdPro$FinalBlocks.coverage" NAME="FinalBlocks Coverage Results" MODIFIED="1552318485251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
     <SUITE FILE_PATH="coverage/AdPro$Ellipse.coverage" NAME="Ellipse Coverage Results" MODIFIED="1550853810233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 2" />
     <SUITE FILE_PATH="coverage/AdPro$HandlingBadInput.coverage" NAME="HandlingBadInput Coverage Results" MODIFIED="1550854789911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 3" />
     <SUITE FILE_PATH="coverage/AdPro$1000lines.coverage" NAME="1000lines Coverage Results" MODIFIED="1551111751820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 2" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/Games/FinalBlocks.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-3453">
-                    <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
-                    <folding>
-                      <element signature="e#0#38#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Games/MyLibrary.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="582">
-                    <caret line="83" selection-start-line="83" selection-end-line="83" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
+    <SUITE FILE_PATH="coverage/AdPro$Snakes.coverage" NAME="Snakes Coverage Results" MODIFIED="1552319894108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Games/helppt2.py">
+        <entry file="file://$PROJECT_DIR$/Games/Snakes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="524">
+              <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#51#89#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Games/MyLibrary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -98,6 +78,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>calc_velocity</find>
+      <find>Lpaddle</find>
+      <find>print</find>
+      <find>Font</find>
+      <find>timer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,16 +99,17 @@
         <option value="$PROJECT_DIR$/Chapter6/SolarThing.py" />
         <option value="$PROJECT_DIR$/Chapter6/Spaceship.py" />
         <option value="$PROJECT_DIR$/Games/ZombieMain.py" />
-        <option value="$PROJECT_DIR$/Games/FinalBlocks.py" />
         <option value="$PROJECT_DIR$/Games/help.py" />
-        <option value="$PROJECT_DIR$/Games/helppt2.py" />
         <option value="$PROJECT_DIR$/Games/MyLibrary.py" />
+        <option value="$PROJECT_DIR$/Games/helppt2.py" />
+        <option value="$PROJECT_DIR$/Games/FinalBlocks.py" />
+        <option value="$PROJECT_DIR$/Games/Snakes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
-    <option name="width" value="1143" />
+    <option name="x" value="714" />
+    <option name="width" value="973" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -179,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.helppt2">
+  <component name="RunManager" selected="Python.Snakes">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -384,28 +369,6 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration name="Circle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Chapter 2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 2/Circle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="FinalBlocks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -428,7 +391,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ZombieMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -441,7 +404,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/ZombieMain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/Snake.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Snakes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Games" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/Snakes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,11 +496,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.helppt2" />
+        <item itemvalue="Python.Snakes" />
+        <item itemvalue="Python.Snake" />
         <item itemvalue="Python.FinalBlocks" />
+        <item itemvalue="Python.helppt2" />
         <item itemvalue="Python.help" />
-        <item itemvalue="Python.Circle" />
-        <item itemvalue="Python.ZombieMain" />
       </list>
     </recent_temporary>
   </component>
@@ -538,16 +523,18 @@
       <workItem from="1551716240049" duration="2306000" />
       <workItem from="1551802956939" duration="2268000" />
       <workItem from="1551888153617" duration="2126000" />
+      <workItem from="1552317517742" duration="2294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13164000" />
+    <option name="totallyTimeSpent" value="15458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="0" width="1143" height="1017" extended-state="0" />
+    <frame x="714" y="0" width="973" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1846722" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12469438" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -557,7 +544,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838537" weight="0.23190045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838537" visible="true" weight="0.23190045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -754,29 +741,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/FinalBlocks.py">
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/pygame/sprite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3453">
-          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+        <state relative-caret-position="363">
+          <caret line="474" selection-start-line="474" selection-end-line="474" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/helppt2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/MyLibrary.py">
+    <entry file="file://$PROJECT_DIR$/Games/Snake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="119">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/helppt2.py">
+    <entry file="file://$PROJECT_DIR$/Games/FinalBlocks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="236">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Square.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/MyLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Snakes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+          <folding>
+            <element signature="e#51#89#0" expanded="true" />
           </folding>
         </state>
       </provider>

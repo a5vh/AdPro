@@ -16,13 +16,11 @@ def game_init():
     pygame.mouse.set_visible(False)
     timer = pygame.time.Clock()
 
-    snake_group = pygame.sprite.Group()
     bit_group = pygame.sprite.Group()
 
     snake = MySprite()
-    snake.load("square.jpg")
+    snake.load("Square.jpg", 10, 10, 1)
     snake.position = 400, 400
-    snake_group.add(snake)
 
 
 
@@ -39,6 +37,7 @@ def load_game():
 def move_snake():
     pass
 
+
 game_init()
 waiting = True
 score = 0
@@ -53,7 +52,8 @@ while True:
     if keys[K_ESCAPE]: sys.exit()
 
     screen.fill((250, 250, 250))
-    snake_group.draw(screen)
+
+    snake.draw(screen)
 
     pygame.display.update()
 
