@@ -178,12 +178,12 @@ def game_menu():
 #main program begins
 game_init()
 game_menu()
-game_over = False
+game_over = True
 last_time = 0
 streak = 0
 
 auto_play = False #additional code added
-step_time = 100
+step_time = 90
 
 #main loop
 while True:
@@ -204,13 +204,6 @@ while True:
         snake.velocity = Point(-1,0)
     elif keys[K_RIGHT] or keys[K_d]:
         snake.velocity = Point(1,0)
-    elif keys[K_SPACE]: #additional code added
-        if auto_play:
-            auto_play = False
-            step_time = 100
-        else:
-            auto_play = True
-            step_time = 150
 
     #update section
     if not game_over:
@@ -224,9 +217,6 @@ while True:
             food_group.add(Food())
             snake.add_segment()
             streak += 1
-        if streak == 5:
-            step_time -= 10
-            streak = 0
             
 
         #see if head collides with body
@@ -237,15 +227,15 @@ while True:
         #check screen boundary
         head_x = snake.segments[0].X//32
         head_y = snake.segments[0].Y//32
-        if head_x < 0 or head_x > 31 or head_y < 0 or head_y > 23:
+        if head_x < 0 or head_x > 23 or head_y < 0 or head_y > 23:
             game_over = True
 
         #additional code added
         if auto_play: auto_move()
-    
+
 
     #drawing section
-    backbuffer.fill((20,50,20)) 
+    backbuffer.fill((20,50,20))
     snake.draw(backbuffer)
     food_group.draw(backbuffer)
     screen.blit(backbuffer, (0,0))
@@ -256,8 +246,18 @@ while True:
                    "," + str(snake.segments[0].Y//32))
         print_text(font, 0, 40, "Streak: " + str(streak))
     else:
-        print_text(font, 0, 0, "GAME OVER")
-        print_text(font, 376, 376, )
+        fontBig = pygame.font.Font(None, 40)
+
+        print_text(fontBig, 310, 306, "SNAKE GAME")
+        print_text(font, 370, 346, "Play?")
+        print_text(font, 360, 376, "Press P")
+        print_text(font, 306, 406, "Press ESC to Leave")
+
+        if keys[K_p]:
+            game_init()
+            game_over = False
+
+
 
 
 
