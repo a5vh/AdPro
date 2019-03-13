@@ -43,11 +43,12 @@ class Food2(MySprite):
         self.Y = random.randint(0,23) * 32
         
 class SnakeSegment(MySprite):
-    def __init__(self,color=(20,200,20)):
+    def __init__(self,color=(66, 66, 66)):
         MySprite.__init__(self)
         image = pygame.Surface((32,32)).convert_alpha()
         image.fill((255,255,255,0))
-        pygame.draw.circle(image, color, (16,16), 16, 0)
+        #pygame.draw.circle(image, color, (16,16), 16, 0)
+        pygame.draw.polygon(image, color, [(16, 20), (20,20), (20, 24), (16, 24)], 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
 
@@ -55,7 +56,7 @@ class Snake():
     def __init__(self):
         self.velocity = Point(-1,0)
         self.old_time = 0
-        head = SnakeSegment((50,250,50))
+        head = SnakeSegment((200, 66, 60))
         head.X = 12*32
         head.Y = 9*32
         self.segments = list()
@@ -114,29 +115,6 @@ def get_food_direction():
     elif head_x == food.x:
         if head_y < food.y:   return "down"
         elif head_y > food.y: return "up"
-
-#this function causes snake to move automatically
-def auto_move():
-    direction = get_current_direction()
-    food_dir = get_food_direction()
-    if food_dir == "left":
-        if direction != "right":
-            direction = "left"
-    elif food_dir == "right":
-        if direction != "left":
-            direction = "right"
-    elif food_dir == "up":
-        if direction != "down":
-            direction = "up"
-    elif food_dir == "down":
-        if direction != "up":
-            direction = "down"
-
-    #set velocity based on direction
-    if direction == "up": snake.velocity = Point(0,-1)
-    elif direction == "down": snake.velocity = Point(0,1)
-    elif direction == "left": snake.velocity = Point(-1,0)
-    elif direction == "right": snake.velocity = Point(1,0)
 
     
 #this function initializes the game
@@ -257,15 +235,6 @@ while True:
             game_init()
             game_over = False
 
-
-
-
-
-    #additional code added
-    if auto_play: 
-        print_text(font, 700, 0, "AUTO")
-        
-   
     pygame.display.update() 
     
 
