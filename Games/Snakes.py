@@ -17,8 +17,8 @@ class Food(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,23) * 32
-        self.Y = random.randint(0,23) * 32
+        self.X = random.randint(0,31) * 32
+        self.Y = random.randint(0,31) * 32
         
 class Food1(MySprite):
     def __init__(self):
@@ -28,8 +28,8 @@ class Food1(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,23) * 32
-        self.Y = random.randint(0,23) * 32
+        self.X = random.randint(0,31) * 32
+        self.Y = random.randint(0,31) * 32
         
 class Food2(MySprite):
     def __init__(self):
@@ -39,8 +39,8 @@ class Food2(MySprite):
         pygame.draw.circle(image, (250,250,50), (16,16), 16, 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
-        self.X = random.randint(0,23) * 32
-        self.Y = random.randint(0,23) * 32
+        self.X = random.randint(0,32) * 32
+        self.Y = random.randint(0,32) * 32
         
 class SnakeSegment(MySprite):
     def __init__(self,color=(66, 66, 66)):
@@ -48,7 +48,7 @@ class SnakeSegment(MySprite):
         image = pygame.Surface((32,32)).convert_alpha()
         image.fill((255,255,255,0))
         #pygame.draw.circle(image, color, (16,16), 16, 0)
-        pygame.draw.polygon(image, color, [(16, 20), (20,20), (20, 24), (16, 24)], 0)
+        pygame.draw.polygon(image, color, [(10,10), (100 ,10), (100, 100), (10, 100)], 0)
         self.set_image(image)
         MySprite.update(self, 0, 30) #create frame image
 
@@ -122,7 +122,7 @@ def game_init():
     global screen, backbuffer, font, timer, snake, food_group
 
     pygame.init()
-    screen = pygame.display.set_mode((24*32,24*32))
+    screen = pygame.display.set_mode((32*32,32*32))
     pygame.display.set_caption("Snake Game")
     font = pygame.font.Font(None, 30)
     timer = pygame.time.Clock()
@@ -205,15 +205,15 @@ while True:
         #check screen boundary
         head_x = snake.segments[0].X//32
         head_y = snake.segments[0].Y//32
-        if head_x < 0 or head_x > 23 or head_y < 0 or head_y > 23:
+        if head_x < 0 or head_x > 31 or head_y < 0 or head_y > 31:
             game_over = True
 
         #additional code added
-        if auto_play: auto_move()
+
 
 
     #drawing section
-    backbuffer.fill((20,50,20))
+    backbuffer.fill((0,0,0))
     snake.draw(backbuffer)
     food_group.draw(backbuffer)
     screen.blit(backbuffer, (0,0))
